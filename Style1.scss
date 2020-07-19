@@ -43,7 +43,7 @@ header{
 
 
 
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 767px){
 
     .logo{
         position: absolute;
@@ -77,7 +77,7 @@ header{
         #btn-menu{
            position: relative;
            top: 10px;
-           left: 360px;
+           left: 350px;
            opacity: 0;
         }
       
