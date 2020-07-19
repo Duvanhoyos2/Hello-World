@@ -56,33 +56,18 @@ header {
     width: 100%;
     margin-left: -70%;
   }
+  .menu ul li {
+    text-decoration: none;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
   #btn-menu {
     position: relative;
-    /* width: 100%; */
     top: 10px;
     left: 360px;
     opacity: 0;
-  }
-  #btn-menu img {
-    position: relative;
-    top: 10px;
-    left: 482px;
-    z-index: 50;
-  }
-  .barra .linea1 {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    -webkit-transform-origin: 0% 0%;
-            transform-origin: 0% 0%;
-  }
-  .barra .linea2 {
-    opacity: 0;
-  }
-  .barra .linea3 {
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    -webkit-transform-origin: 0% 100%;
-            transform-origin: 0% 100%;
   }
   #btn-menu:checked ~ .menu {
     margin: 0;
@@ -307,7 +292,7 @@ header {
   }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1024px) {
   header .logo {
     float: left;
     position: relative;
@@ -322,6 +307,14 @@ header {
     padding: 10px 20px;
     display: inline;
     font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+  }
+  header .menu ul li a {
+    text-decoration: none;
+    color: #060A24;
+  }
+  header .menu ul li a:hover {
+    color: #00F3BB;
   }
   header #btn-menu {
     display: none;
@@ -392,12 +385,15 @@ header {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    text-align: center;
   }
   .gradiente .episodios iframe {
     width: 584px;
     height: 232px;
-    padding-left: 6.9%;
-    padding-top: 3%;
+    margin-bottom: 5px;
+    margin-top: 26px;
+    margin-left: 30px;
+    margin-right: 20px;
   }
   .x {
     display: -ms-grid;
@@ -430,7 +426,7 @@ header {
         grid-template-columns: repeat(3, 1fr);
   }
   .estelar img {
-    width: 494px;
+    width: 100%;
     height: 364px;
   }
   .invitados {
@@ -439,7 +435,7 @@ header {
     left: 100px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 48px;
-    width: 100%;
+    width: 500px;
   }
   .temas {
     display: none;
@@ -495,11 +491,6 @@ header {
     height: 56px;
     position: relative;
     left: 340px;
-  }
-  .btn-d:hover {
-    background: #00d4ff;
-    background: -webkit-gradient(linear, left top, right top, color-stop(15%, #00d4ff), color-stop(37%, #1e44e8), color-stop(68%, #060af2));
-    background: linear-gradient(90deg, #00d4ff 15%, #1e44e8 37%, #060af2 68%);
   }
   .footer .f {
     float: left;
