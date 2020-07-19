@@ -127,6 +127,10 @@ header {
     height: 4.1%;
     padding-left: 3.4%;
   }
+  .gradiente .episodios iframe {
+    width: 100%;
+    height: 232px;
+  }
   .x {
     margin: 0px 20px;
     height: 650px;
