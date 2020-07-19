@@ -9,39 +9,8 @@ header{
     height: 60px;
     background-color: #ffffff;
 
-    /* .logo{
-        float: left; 
-     }
-
-     .menu{
-         float: right;
-            
-         ul{
-             display: block;
-             padding: 15px;
-         }
-         
-     } */
-
-     /* #btn-menu{
-         display: none;
-     } */
+   
 }
-
-/* section{
-    h1{
-        .contenedor{
-            display: flex;
-            width: 30%;
-            padding-left: 3em;
-            .punto{
-                color: #0000EC;
-            }
-        }
-    }
-} */
-
-
 
 @media only screen and (max-width: 780px){
 
@@ -103,7 +72,6 @@ header{
         height: 44px;
         width: 100%;
         background-color: #fff;
-        /* border-bottom:black 2px solid; */
     }
 
     section{
@@ -298,7 +266,6 @@ header{
         .f{
             float: left;
             width: 90%;
-            /* padding-left: 70px; */
             font-family: 'IBM Plex Mono', monospace;
             color:#060A24;
         }
@@ -538,11 +505,6 @@ header{
                 justify-content: space-around;
                 width: 20%;
                 float: right;
-            
-            /* img{
-                    width: 18px;
-                height: 28px;
-            } */
             
             .fa{
                 width: 18px;
