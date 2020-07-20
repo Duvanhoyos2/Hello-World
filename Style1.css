@@ -149,13 +149,11 @@ header {
   }
   .x .textox h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    height: 1, 5%;
     font-size: 36px;
     width: 55%;
   }
   .x .textox p {
     font-family: 'IBM Plex Mono', monospace;
-    height: 4, 7%;
     font-size: 14px;
     line-height: 22px;
   }
@@ -164,7 +162,6 @@ header {
   }
   .estelar img {
     width: 100%;
-    height: 4, 5%;
     display: block;
   }
   .invitados {
@@ -322,7 +319,6 @@ header {
     left: 100px;
     top: -50px;
     width: 605px;
-    height: 1, 2%;
     text-align: justify;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
