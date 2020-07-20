@@ -192,6 +192,7 @@ header {
     font-size: 24px;
     color: #060A24;
     text-align: center;
+    width: 320px;
   }
   .novedades {
     background-color: #0000FF;
@@ -216,11 +217,6 @@ header {
     position: absolute;
     left: 16px;
     right: 275px;
-  }
-  .novedades .btn:hover {
-    background: #00d4ff;
-    background: -webkit-gradient(linear, left top, right top, color-stop(15%, #00d4ff), color-stop(37%, #1e44e8), color-stop(68%, #060af2));
-    background: linear-gradient(90deg, #00d4ff 15%, #1e44e8 37%, #060af2 68%);
   }
   .nuestros {
     display: none;

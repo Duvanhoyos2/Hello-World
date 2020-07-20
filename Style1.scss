@@ -215,6 +215,7 @@ header {
             font-size: 24px;
             color: #060A24;
             text-align: center;
+            width: 320px;
         }
 
     }
@@ -242,11 +243,6 @@ header {
             position: absolute;
             left: 16px;
             right: 275px;
-        }
-
-        .btn:hover {
-            background: rgb(0, 212, 255);
-            background: linear-gradient(90deg, rgba(0, 212, 255, 1) 15%, rgba(30, 68, 232, 1) 37%, rgba(6, 10, 242, 1) 68%);
         }
     }
 
