@@ -76,7 +76,6 @@ header{
 
     section{
         position: relative;
-        h1{
             .contenedor{   
             display: flex;
             width: 240px;
@@ -97,7 +96,7 @@ header{
                 font-family: 'IBM Plex Sans', sans-serif;
                 font-size: 36px;
             }
-          } 
+         
         }
         
 
@@ -328,7 +327,7 @@ header{
 
     section{
         position: relative;
-        h1{
+        
             .contenedor{
                 display: flex;
                 width: 745px;
@@ -345,12 +344,12 @@ header{
                 }                   
 
             }
-        }
+        
 
         .explicacion{
             position: relative;
             left: 100px;
-            top: -80px;
+            top: -50px;
             width: 605px;
             height: 1,2%; 
             text-align: justify;
