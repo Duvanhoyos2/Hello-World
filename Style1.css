@@ -470,9 +470,8 @@ header {
     width: 20%;
     float: right;
   }
-  .footer .img-footer .fa {
-    width: 18px;
-    height: 28px;
+  .footer .img-footer a i {
+    color: #060A24;
   }
 }
 /*# sourceMappingURL=Style1.css.map */

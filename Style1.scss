@@ -531,9 +531,10 @@ header {
             width: 20%;
             float: right;
 
-            .fa {
-                width: 18px;
-                height: 28px;
+            a{
+                i{
+                    color: #060A24;
+                }
             }
         }
     }
